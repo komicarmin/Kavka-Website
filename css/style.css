@@ -1,0 +1,125 @@
+html, body {
+	background-color: black;
+	width: 100%;
+	color: white;
+}
+
+.logoImg {
+	margin-top: 30px;
+}
+
+.navbar {
+	margin-top: 20px;
+	background-color: black;
+	border-width: 0px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-header .navbar-toggle {
+  float: none;
+  margin: 0 auto;
+  border-color: white;
+}
+
+.navbar-header .navbar-toggle:focus, .navbar-header .navbar-toggle:hover {
+    background-color: black;
+    border-color: #EAD9A4;
+}
+
+.navbar-toggle:hover .icon-bar, .navbar-toggle:focus .icon-bar  {
+    background-color: #EAD9A4;
+}
+
+.navbar-inverse div.navbar-collapse
+{
+    border-top:none;
+    box-shadow:none;
+}
+
+.navbar-inverse .navbar-nav > .active a, 
+.navbar-inverse .navbar-nav > .active a:hover {
+	color: #BF9515;
+	background-color: black;
+}
+ 
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #EAD9A4;
+	background-color: black;
+}
+
+.carousel {
+	margin-top: 20px;
+	margin: 0 auto;
+	max-height: 400px;
+	overflow: hidden;
+}
+
+.carousel img {
+	width: 100%;
+	margin: auto;
+}
+
+.events {
+	margin-top: 40px;
+}
+
+.eventImg {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.events p {
+	margin-top: 25px;
+}
+
+.events a {
+	color: #BF9515;
+}
+
+.events a:hover {
+	color: #EAD9A4;
+	text-decoration: none;
+}
+
+.afterEvent {
+	margin-top: 50px;
+}
+
+.ulLeft {
+	padding-left: 10px;
+	float: left;
+}
+
+.foot h4 {
+	margin-bottom: 20px;
+	color: #BF9515;
+}
+
+.cr {
+	margin-bottom: 0px;
+}
+
+.text-center h2 {
+	margin-bottom: 5px;
+}
+
+.text-center p {
+	margin-bottom: 50px;
+}
+
+.drinks img {
+	width: 70%;
+}
+
+.priceLine {
+	width: 60%;
+}
